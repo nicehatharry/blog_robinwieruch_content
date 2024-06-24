@@ -64,7 +64,7 @@ npm install jsdom --save-dev
 Second, include it to the Vite configuration file:
 
 ```javascript{7-9}
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
